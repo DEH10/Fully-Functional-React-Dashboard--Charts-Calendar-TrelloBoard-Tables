@@ -6,8 +6,8 @@ const Orders = () => {
   return (
     <div className={`${css.container} theme-container`}>
          <div className={css.head}>
-            <img src="https://cdn.dribbble.com/users/60166/screenshots/15558186/media/fa6bd0b894439dd443fa89956d74719b.jpg?compress=1&resize=400x300&vertical=top" alt="logo" />
-            <span>Oders today</span>
+            <img src="https://i.ibb.co/ZThp8x2/hacp-logo.jpg" alt="logo" />
+            <span>Elite Today</span>
          </div>
      <div className={`${css.stat} grey-container`}>
 

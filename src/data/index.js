@@ -4,51 +4,73 @@ import moment from "moment/moment";
 
 export const cardsData = [
   {
-    title: "Revenue",
-    change: 24,
-    amount: 42056,
+    title: "Total Budget",
+    change: 3.5,
+    amount: 150000000,
   },
   {
-    title: "Orders",
-    change: 14,
-    amount: 52125.03,
+    title: "Rental Income",
+    change: 2.1,
+    amount: 2500000,
   },
   {
-    title: "Expenses",
-    change: 18,
-    amount: 1216.5,
+    title: "HUD Funding",
+    change: 5,
+    amount: 10000000,
   },
   {
-    title: "Profit",
-    change: 12,
-    amount: 10125.0,
+    title: "Operating Expenses",
+    change: -1.2,
+    amount: 12000000,
+  },
+  {
+    title: "Capital Improvements",
+    change: 15,
+    amount: 2000000,
+  },
+  {
+    title: "Voucher Utilization",
+    change: 1.8,
+    amount: 95.5, // This is a percentage
   },
 ];
 
 export const ordersData = [
   {
-    name: "Skatebnoard",
-    type: "Illustration",
-    items: 58,
-    change: 290,
+    name: "Housing Choice Vouchers",
+    type: "Assistance Program",
+    active: 5800,
+    change: 120,
   },
   {
-    name: "Language courses",
-    type: "Illustration",
-    items: 12,
-    change: 72
+    name: "Public Housing Units",
+    type: "Property Management",
+    occupied: 2500,
+    change: -15
   },
   {
-    name: "Office Collaboration",
-    type: "Illustration",
-    items: 7,
-    change: 70
+    name: "Property Inspections",
+    type: "Compliance",
+    completed: 3200,
+    change: 250
   },
   {
-    name: "Robot",
-    type: "Illustration",
-    items: 21,
-    change: 15
+    name: "Maintenance Requests",
+    type: "Property Management",
+    resolved: 1800,
+    change: 75
+  },
+  {
+    name: "New Applicants",
+    type: "Administration",
+    processed: 950,
+    change: 30
+  },
+  {
+    name: "Resident Services",
+    type: "Community Support",
+    participants: 1200,
+    change: 100
   }
 ]
 

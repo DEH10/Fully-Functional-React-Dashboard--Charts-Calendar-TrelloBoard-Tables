@@ -30,7 +30,7 @@ const columns = useMemo(()=>[
         header: 'State',
       },
 ])
-// here in table inorder to avoid the re-rendering of the same component we use useMemo, useMemo memorizes the outputs and avoid runiing the function again and again and saves time.
+// here in table inorder to avoid the re-rendering of the same component we use useMemo, useMemo memorizes the outputs and avoid running the function again and again and saves time.
 const theme = useMemo(()=>
 createTheme({
     palette:{

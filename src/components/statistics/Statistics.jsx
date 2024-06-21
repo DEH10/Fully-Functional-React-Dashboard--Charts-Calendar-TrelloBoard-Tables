@@ -28,22 +28,22 @@ const Statistics = () => {
           </div>
 
           <div className={css.card}>
-            <span>Top item this month</span>
-             <span>Office comps</span>
+          <span>Top program this month</span>
+          <span>Housing Choice Vouchers</span>
           </div>
         </div>
 
         <div className={css.card}>
-          <span>Items</span>
-           <span>${groupNumber(3800000)}</span>
+        <span>Total Units Managed</span>
+        <span>{groupNumber(9500)}</span>
         </div>
         <div className={css.card}>
-          <span>Profit</span>
-           <span>${groupNumber(3800000)}</span>
+        <span>Annual Budget</span>
+        <span>${groupNumber(150000000)}</span>
         </div>
         <div className={css.card}>
-          <span>Daily Average</span> 
-          <span>${groupNumber(3800000)}</span>
+        <span>Avg. Monthly Assistance</span>
+        <span>${groupNumber(750)}</span>
         </div>
 
       </div>

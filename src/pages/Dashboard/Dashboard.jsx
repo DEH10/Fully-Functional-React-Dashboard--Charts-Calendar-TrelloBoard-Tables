@@ -10,7 +10,7 @@ const Dashboard = () => {
       <div className={css.dashboard}>
        <div className={`${css.dashboardHead} theme-container`}>
         <div className={css.head}>
-          <span>Dashboard</span>
+          <span>Elite Analytics Dashboard</span>
 
           <div className={css.durationButton}>
             <select>
