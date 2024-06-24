@@ -1,5 +1,5 @@
 :root {
-  --transparent-black: rgba(0, 0, 0, 0.294);
+  --transparent-black: rgba(12, 12, 12, 0.349);
   --black: #111111;
   --grey: rgba(255, 255, 255, 0.597);
   --orange:linear-gradient(to right, #8a2be2, #00ced1);
@@ -27,7 +27,7 @@ body {
 }
 
 .theme-container {
-  background: rgba(0, 0, 0, 0.59);
+  background: rgba(7, 7, 7, 0);
   border-radius: 20px;
   padding: 2rem;
 }

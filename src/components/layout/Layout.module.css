@@ -36,7 +36,7 @@
 }
 
 .searchbar{
-    background-color: rgba(255,255,255,0.496);
+    background-color: rgba(99, 125, 138, 0.496);
     width: 30%;
     max-width: 25rem;
     padding: 1rem 1rem;
@@ -44,7 +44,7 @@
     height: 2rem;
     display: flex;
     align-items: center;
-    border: 2px solid rgb(63 , 63,63);
+    border: 2px solid rgb(160, 158, 158);
     justify-content: center;
     gap: 8px;
 
